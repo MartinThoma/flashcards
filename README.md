@@ -13,6 +13,9 @@ in the project. Especially sharing and collaboration has to be much better.
     * unique ID (hash of cards content?)
     * dependencies (for this card, you have to know another card)
 
+Cards should also be able to reference an image. This makes everything
+complicated...
+
 
 ## Deck format
 
@@ -31,6 +34,7 @@ The state of your studies should be stored in a defined format. This includes:
 ## User Interface
 
 * Function to go back (to the last card)
+* "Silence" a deck (meaning it will not be deleted, but not shown in the deck list / cards to learn)
 
 
 ## Sub projects
@@ -40,3 +44,4 @@ The state of your studies should be stored in a defined format. This includes:
     * Android
     * iOs
     * Windows Phone
+* Anki-Deck converter
